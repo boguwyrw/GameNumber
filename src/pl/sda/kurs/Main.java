@@ -29,7 +29,7 @@ public class Main {
             if (level == 3){
                 no = 100;
             }
-            if ((level != 1) || (level != 2) || (level != 3)){
+            if ((level != 1) && (level != 2) && (level != 3)){
                 System.out.println("Wrong choice");
             }
         }
